@@ -9,13 +9,14 @@ body{
 /*Specified for div container 1, should not be changed else background image styling will be lost*/
 .div-container1{
   background-image: url(pictures/header_space.jpg);
-  padding-bottom:425px;
+  padding-top: 50px;
+  padding-bottom:375px;
   display:block;
   margin:0px 100px 0px 100px;
 }
 
 .div-container2{
-  margin:50px 100px 0px 100px;
+  margin:50px 100px 0px 100px !important;
   border: 2px hidden;
  /* background-image: url(pictures/honeycomb.jpg);*/
 }
@@ -29,16 +30,60 @@ body{
  }
 
 .smaller-image{
-  width: 200px;
-  border-radius: 50%;
+  width: 500px;
+  height: 350px;
+  margin: 10px 0px 10px 77px;
+  
+ 
+/*
+   border-radius: 100%;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 100px;*/
 }
 
 .thumb{
-
-
   margin: 20px 20px 10px 50px;
   display: inline;
   border: groove 2px #000000;
 }
+
+.stay-fixed{
+  position: fixed;
+  margin: 0%;
+  
+}
+
+.jump{
+  padding-top: 200px;
+}
+
+/* CSS used here will be applied after bootstrap.css  from bootply
+.gallery{
+  width:250px;
+  display:inline-block;
+    position:relative;
+  }
+  .items{
+    position:relative;
+  width:50px;
+  display:inline-block;
+    padding-right:5px;
+    padding-left:5px;
+    
+  }
+  .delete {
+        position: absolute;
+      top: -5px;
+      right: 5px;
+      color: #FF0000;
+  }
+  */
+
+/*no use*/
+  .scroll-container {
+    display: block;
+    width: 350px;
+    height: 200px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
