@@ -1,0 +1,44 @@
+body{
+  background-color:#CCCCFF !important;
+}
+
+/*This is a generalized style to center text*/
+.centralize{
+  text-align: center;
+}
+/*Specified for div container 1, should not be changed else background image styling will be lost*/
+.div-container1{
+  background-image: url(pictures/header_space.jpg);
+  padding-bottom:425px;
+  display:block;
+  margin:0px 100px 0px 100px;
+}
+
+.div-container2{
+  margin:50px 100px 0px 100px;
+  border: 2px hidden;
+ /* background-image: url(pictures/honeycomb.jpg);*/
+}
+.div-container3{
+  background-color: #FFFFFF;
+  margin:50px 100px 0px 100px;
+}
+
+.div-container4{
+   margin:50px 100px 0px 100px;
+ }
+
+.smaller-image{
+  width: 200px;
+  border-radius: 50%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.thumb{
+
+
+  margin: 20px 20px 10px 50px;
+  display: inline;
+  border: groove 2px #000000;
+}
